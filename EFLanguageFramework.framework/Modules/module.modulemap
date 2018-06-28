@@ -1,0 +1,11 @@
+framework module EFLanguageFramework {
+  umbrella header "EFLanguageFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module EFLanguageFramework.Swift {
+    header "EFLanguageFramework-Swift.h"
+    requires objc
+}
